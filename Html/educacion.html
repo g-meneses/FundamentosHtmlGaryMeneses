@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viweport" content="initial-scale=1, maximun-scale=1", width=device-width>
+    <title>Hoja de Vida </title>
+  </head>
+  <body>
+    <svg width= "200px" height="200px" viewbox="0 0 200 200">
+      <image width= "150px" height="150px" xlink:href="../img/GSMLogo.svg"></image>
+    </svg>
+
+    <header>
+        <h1>Hoja de Vida</h1>
+        <h2>Gary Meneses Alpire</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li>Educacion</li>
+        <li><a href="../Html/experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+
+    <h2>Educacion</h2>
+    <table  border="1">
+     <tr>
+       <th>Año</th>
+       <th>Institucion</th>
+       <th>Lugar</th>
+       <th>¿Culminó?</th>
+     </tr>
+     <tbody>
+       <tr>
+         <td>1997</td>
+         <td>Insituto Americano High School </td>
+         <td>La Paz</td>
+          <td>Si</td>
+       </tr>
+       <tr>
+         <td>2007</td>
+         <td>Centro Boliviano Americano: Idioma Ingles </td>
+         <td>La Paz  </td>
+         <td> Si  </td>
+       </tr>
+       <tr>
+         <td>2009 </td>
+         <td>Universidad Salesiana de Bolivia </td>
+         <td>La Paz  </td>
+          <td>Si  </td>
+       </tr>
+       <tr>
+         <td>2012</td>
+         <td>Alliance Francaise</td>
+         <td>La Paz  </td>
+          <td>No</td>
+       </tr>
+     </tbody>
+    </table>
+    <form autocomplete="off" name="Agrega Estudios">
+       <legend> <h2>Agregar Estudios</h2></legend>
+
+        <p> <label for="Año">Año</label>
+            <input type="number" max="2017"  min="1990" >
+        </p>
+
+        <p><label for="Institucion">Institucion:</label>
+        <input type="text">
+        </p>
+
+        <p><label for="Lugar">Lugar:</label>
+        <input type="text">
+        </p>
+
+        <p><input type="submit"  value="Enviar"></p>
+
+        <p><label for="¿Culmino?">¿Culmino?</label>
+        <input type="radio" name="ValorSi" value="Si"> Si
+
+        <input type="radio" name="valorNo" value="No">No
+        </p>
+
+    </form>
+    <footer>
+
+      <p>® Derechos reservados</p>
+      <ul>
+        <li><b>Email:</b> gmeneses.alpire@outlook.com</li>
+        <li><b>Teléfono</b> +591-70133265</li>
+        <li><b>Dirección:</b> Calle 17 de Obrajes, La Paz</li>
+      </ul>
+    </footer>
+  </body>
+</html>
